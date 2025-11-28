@@ -208,7 +208,7 @@ function StepsColumn() {
 
         <StepItem step="2" title="Launch">
           <div className="w-64 sm:w-72 grid grid-cols-1 gap-2>">
-            <CommandBlock command="vibe -m claude" />
+            <CommandBlock command="vibe -c claude" />
             <div className="mt-4 w-full border border-green-600 bg-neutral-950 scan-lines overflow-hidden shadow-[0_0_30px_hsl(142_76%_56%/0.2)] rounded-lg">
               <div className="flex items-center gap-2 px-4 py-2.5 border-b border-zinc-800 bg-zinc-900">
             <span className="text-xs text-zinc-400 ml-2 flex items-center gap-1.5">
@@ -420,10 +420,10 @@ function CodeAnywhereSection() {
   ]);
 
   const desktopTitlesRef = React.useRef([
-    "viberra -m claude",
-    "viberra -m claude",
-    "viberra -m gemini",
-    "viberra -m aider",
+    "viberra -c claude",
+    "viberra -c claude",
+    "viberra -c gemini",
+    "viberra -c aider",
   ]);
 
   const mobileTitlesRef = React.useRef([
@@ -702,11 +702,11 @@ function GettingStartedSection() {
               <span className="text-zinc-500"># Claude Code CLI</span>{'\n'}
               <span className="text-green-500">vibe</span>{'\n'}
               <span className="text-zinc-500"># or</span>{'\n'}
-              <span className="text-green-500">vibe</span> <span className="text-cyan-400">-m</span> <span className="text-white">claude</span>{'\n\n'}
+              <span className="text-green-500">vibe</span> <span className="text-cyan-400">-c</span> <span className="text-white">claude</span>{'\n\n'}
               <span className="text-zinc-500"># Gemini CLI</span>{'\n'}
-              <span className="text-green-500">vibe</span> <span className="text-cyan-400">-m</span> <span className="text-white">gemini</span>{'\n\n'}
+              <span className="text-green-500">vibe</span> <span className="text-cyan-400">-c</span> <span className="text-white">gemini</span>{'\n\n'}
               <span className="text-zinc-500"># Codex CLI</span>{'\n'}
-              <span className="text-green-500">vibe</span> <span className="text-cyan-400">-m</span> <span className="text-white">codex</span>
+              <span className="text-green-500">vibe</span> <span className="text-cyan-400">-c</span> <span className="text-white">codex</span>
             </code>
           </pre>
         </div>

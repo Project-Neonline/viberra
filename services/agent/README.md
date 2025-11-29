@@ -1,7 +1,7 @@
 # Viberra
 
 [![npm version](https://img.shields.io/npm/v/viberra)](https://www.npmjs.com/package/viberra)
-[![license](https://img.shields.io/npm/l/viberra)](https://github.com/kirillribkin/viberra/blob/main/LICENSE)
+[![license](https://img.shields.io/npm/l/viberra)](https://github.com/Project-Neonline/viberra/blob/main/LICENSE)
 
 > Secure P2P terminal access - end-to-end encrypted WebRTC, no SSH, VPNs or port forwarding
 
@@ -93,8 +93,8 @@ vibe --revoke-client <device-id>
 
 For complete documentation, architecture details, and self-hosting guide, see:
 
-**[https://github.com/kirillribkin/viberra](https://github.com/kirillribkin/viberra)**
+**[https://github.com/Project-Neonline/viberra](https://github.com/Project-Neonline/viberra)**
 
 ## License
 
-Apache-2.0 - see [LICENSE](https://github.com/kirillribkin/viberra/blob/main/LICENSE) for details.
+Apache-2.0 - see [LICENSE](https://github.com/Project-Neonline/viberra/blob/main/LICENSE) for details.

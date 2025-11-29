@@ -148,10 +148,7 @@ export default function LandingPage() {
           </div>
 
           <div className="flex gap-6">
-            <a href="#" className="hover:text-green-600 transition-colors">Docs</a>
-            <a href="#" className="hover:text-green-600 transition-colors">GitHub</a>
-            <a href="#" className="hover:text-green-600 transition-colors">Discord</a>
-            <a href="#" className="hover:text-green-600 transition-colors">Privacy</a>
+            <a href="https://github.com/Project-Neonline/viberra" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 transition-colors">GitHub</a>
           </div>
         </div>
       </footer>

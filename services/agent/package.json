@@ -1,6 +1,6 @@
 {
   "name": "viberra",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Secure P2P terminal access - end-to-end encrypted WebRTC, no SSH, VPNs or port forwarding",
   "type": "module",
   "bin": {
